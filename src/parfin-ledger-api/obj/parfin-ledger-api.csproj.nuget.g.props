@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Consultor\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.5.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\Consultor\.nuget\packages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net6.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\createLogPath.sh" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\createLogPath.sh')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\createLogPath.sh</TargetPath>
+      <DestinationSubDirectory>datadog\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\createLogPath.sh</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\linux-arm64\Datadog.Trace.ClrProfiler.Native.so" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\linux-arm64\Datadog.Trace.ClrProfiler.Native.so')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\linux-arm64\Datadog.Trace.ClrProfiler.Native.so</TargetPath>
+      <DestinationSubDirectory>datadog\linux-arm64\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\linux-arm64\Datadog.Trace.ClrProfiler.Native.so</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\linux-musl-x64\Datadog.Trace.ClrProfiler.Native.so" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\linux-musl-x64\Datadog.Trace.ClrProfiler.Native.so')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\linux-musl-x64\Datadog.Trace.ClrProfiler.Native.so</TargetPath>
+      <DestinationSubDirectory>datadog\linux-musl-x64\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\linux-musl-x64\Datadog.Trace.ClrProfiler.Native.so</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\linux-musl-x64\libddwaf.so" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\linux-musl-x64\libddwaf.so')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\linux-musl-x64\libddwaf.so</TargetPath>
+      <DestinationSubDirectory>datadog\linux-musl-x64\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\linux-musl-x64\libddwaf.so</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\linux-x64\Datadog.Trace.ClrProfiler.Native.so" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\linux-x64\Datadog.Trace.ClrProfiler.Native.so')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\linux-x64\Datadog.Trace.ClrProfiler.Native.so</TargetPath>
+      <DestinationSubDirectory>datadog\linux-x64\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\linux-x64\Datadog.Trace.ClrProfiler.Native.so</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\linux-x64\libddwaf.so" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\linux-x64\libddwaf.so')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\linux-x64\libddwaf.so</TargetPath>
+      <DestinationSubDirectory>datadog\linux-x64\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\linux-x64\libddwaf.so</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.AspNet.dll" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.AspNet.dll')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\net461\Datadog.Trace.AspNet.dll</TargetPath>
+      <DestinationSubDirectory>datadog\net461\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\net461\Datadog.Trace.AspNet.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.AspNet.pdb" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.AspNet.pdb')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\net461\Datadog.Trace.AspNet.pdb</TargetPath>
+      <DestinationSubDirectory>datadog\net461\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\net461\Datadog.Trace.AspNet.pdb</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.AspNet.xml" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.AspNet.xml')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\net461\Datadog.Trace.AspNet.xml</TargetPath>
+      <DestinationSubDirectory>datadog\net461\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\net461\Datadog.Trace.AspNet.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.MSBuild.dll" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.MSBuild.dll')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\net461\Datadog.Trace.MSBuild.dll</TargetPath>
+      <DestinationSubDirectory>datadog\net461\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\net461\Datadog.Trace.MSBuild.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.MSBuild.pdb" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.MSBuild.pdb')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\net461\Datadog.Trace.MSBuild.pdb</TargetPath>
+      <DestinationSubDirectory>datadog\net461\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\net461\Datadog.Trace.MSBuild.pdb</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.MSBuild.xml" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.MSBuild.xml')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\net461\Datadog.Trace.MSBuild.xml</TargetPath>
+      <DestinationSubDirectory>datadog\net461\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\net461\Datadog.Trace.MSBuild.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.dll" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.dll')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\net461\Datadog.Trace.dll</TargetPath>
+      <DestinationSubDirectory>datadog\net461\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\net461\Datadog.Trace.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.pdb" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.pdb')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\net461\Datadog.Trace.pdb</TargetPath>
+      <DestinationSubDirectory>datadog\net461\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\net461\Datadog.Trace.pdb</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.xml" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\net461\Datadog.Trace.xml')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\net461\Datadog.Trace.xml</TargetPath>
+      <DestinationSubDirectory>datadog\net461\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\net461\Datadog.Trace.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netcoreapp3.1\Datadog.Trace.MSBuild.deps.json" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netcoreapp3.1\Datadog.Trace.MSBuild.deps.json')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netcoreapp3.1\Datadog.Trace.MSBuild.deps.json</TargetPath>
+      <DestinationSubDirectory>datadog\netcoreapp3.1\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netcoreapp3.1\Datadog.Trace.MSBuild.deps.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netcoreapp3.1\Datadog.Trace.MSBuild.dll" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netcoreapp3.1\Datadog.Trace.MSBuild.dll')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netcoreapp3.1\Datadog.Trace.MSBuild.dll</TargetPath>
+      <DestinationSubDirectory>datadog\netcoreapp3.1\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netcoreapp3.1\Datadog.Trace.MSBuild.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netcoreapp3.1\Datadog.Trace.MSBuild.pdb" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netcoreapp3.1\Datadog.Trace.MSBuild.pdb')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netcoreapp3.1\Datadog.Trace.MSBuild.pdb</TargetPath>
+      <DestinationSubDirectory>datadog\netcoreapp3.1\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netcoreapp3.1\Datadog.Trace.MSBuild.pdb</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netcoreapp3.1\Datadog.Trace.MSBuild.xml" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netcoreapp3.1\Datadog.Trace.MSBuild.xml')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netcoreapp3.1\Datadog.Trace.MSBuild.xml</TargetPath>
+      <DestinationSubDirectory>datadog\netcoreapp3.1\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netcoreapp3.1\Datadog.Trace.MSBuild.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netcoreapp3.1\Datadog.Trace.dll" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netcoreapp3.1\Datadog.Trace.dll')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netcoreapp3.1\Datadog.Trace.dll</TargetPath>
+      <DestinationSubDirectory>datadog\netcoreapp3.1\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netcoreapp3.1\Datadog.Trace.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netcoreapp3.1\Datadog.Trace.pdb" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netcoreapp3.1\Datadog.Trace.pdb')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netcoreapp3.1\Datadog.Trace.pdb</TargetPath>
+      <DestinationSubDirectory>datadog\netcoreapp3.1\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netcoreapp3.1\Datadog.Trace.pdb</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netcoreapp3.1\Datadog.Trace.xml" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netcoreapp3.1\Datadog.Trace.xml')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netcoreapp3.1\Datadog.Trace.xml</TargetPath>
+      <DestinationSubDirectory>datadog\netcoreapp3.1\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netcoreapp3.1\Datadog.Trace.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\Datadog.Trace.MSBuild.deps.json" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\Datadog.Trace.MSBuild.deps.json')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netstandard2.0\Datadog.Trace.MSBuild.deps.json</TargetPath>
+      <DestinationSubDirectory>datadog\netstandard2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netstandard2.0\Datadog.Trace.MSBuild.deps.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\Datadog.Trace.MSBuild.dll" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\Datadog.Trace.MSBuild.dll')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netstandard2.0\Datadog.Trace.MSBuild.dll</TargetPath>
+      <DestinationSubDirectory>datadog\netstandard2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netstandard2.0\Datadog.Trace.MSBuild.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\Datadog.Trace.MSBuild.pdb" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\Datadog.Trace.MSBuild.pdb')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netstandard2.0\Datadog.Trace.MSBuild.pdb</TargetPath>
+      <DestinationSubDirectory>datadog\netstandard2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netstandard2.0\Datadog.Trace.MSBuild.pdb</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\Datadog.Trace.MSBuild.xml" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\Datadog.Trace.MSBuild.xml')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netstandard2.0\Datadog.Trace.MSBuild.xml</TargetPath>
+      <DestinationSubDirectory>datadog\netstandard2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netstandard2.0\Datadog.Trace.MSBuild.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\Datadog.Trace.dll" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\Datadog.Trace.dll')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netstandard2.0\Datadog.Trace.dll</TargetPath>
+      <DestinationSubDirectory>datadog\netstandard2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netstandard2.0\Datadog.Trace.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\Datadog.Trace.pdb" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\Datadog.Trace.pdb')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netstandard2.0\Datadog.Trace.pdb</TargetPath>
+      <DestinationSubDirectory>datadog\netstandard2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netstandard2.0\Datadog.Trace.pdb</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\Datadog.Trace.xml" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\Datadog.Trace.xml')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netstandard2.0\Datadog.Trace.xml</TargetPath>
+      <DestinationSubDirectory>datadog\netstandard2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netstandard2.0\Datadog.Trace.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\System.Diagnostics.DiagnosticSource.dll" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\System.Diagnostics.DiagnosticSource.dll')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netstandard2.0\System.Diagnostics.DiagnosticSource.dll</TargetPath>
+      <DestinationSubDirectory>datadog\netstandard2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netstandard2.0\System.Diagnostics.DiagnosticSource.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\System.Reflection.Emit.ILGeneration.dll" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\System.Reflection.Emit.ILGeneration.dll')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netstandard2.0\System.Reflection.Emit.ILGeneration.dll</TargetPath>
+      <DestinationSubDirectory>datadog\netstandard2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netstandard2.0\System.Reflection.Emit.ILGeneration.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\System.Reflection.Emit.Lightweight.dll" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\System.Reflection.Emit.Lightweight.dll')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netstandard2.0\System.Reflection.Emit.Lightweight.dll</TargetPath>
+      <DestinationSubDirectory>datadog\netstandard2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netstandard2.0\System.Reflection.Emit.Lightweight.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\System.Reflection.Emit.dll" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\System.Reflection.Emit.dll')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netstandard2.0\System.Reflection.Emit.dll</TargetPath>
+      <DestinationSubDirectory>datadog\netstandard2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netstandard2.0\System.Reflection.Emit.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\System.Threading.dll" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\netstandard2.0\System.Threading.dll')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\netstandard2.0\System.Threading.dll</TargetPath>
+      <DestinationSubDirectory>datadog\netstandard2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\netstandard2.0\System.Threading.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\osx-x64\Datadog.Trace.ClrProfiler.Native.dylib" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\osx-x64\Datadog.Trace.ClrProfiler.Native.dylib')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\osx-x64\Datadog.Trace.ClrProfiler.Native.dylib</TargetPath>
+      <DestinationSubDirectory>datadog\osx-x64\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\osx-x64\Datadog.Trace.ClrProfiler.Native.dylib</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\osx-x64\libddwaf.dylib" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\osx-x64\libddwaf.dylib')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\osx-x64\libddwaf.dylib</TargetPath>
+      <DestinationSubDirectory>datadog\osx-x64\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\osx-x64\libddwaf.dylib</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\win-x64\Datadog.Trace.ClrProfiler.Native.dll" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\win-x64\Datadog.Trace.ClrProfiler.Native.dll')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\win-x64\Datadog.Trace.ClrProfiler.Native.dll</TargetPath>
+      <DestinationSubDirectory>datadog\win-x64\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\win-x64\Datadog.Trace.ClrProfiler.Native.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\win-x64\ddwaf.dll" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\win-x64\ddwaf.dll')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\win-x64\ddwaf.dll</TargetPath>
+      <DestinationSubDirectory>datadog\win-x64\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\win-x64\ddwaf.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\win-x86\Datadog.Trace.ClrProfiler.Native.dll" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\win-x86\Datadog.Trace.ClrProfiler.Native.dll')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\win-x86\Datadog.Trace.ClrProfiler.Native.dll</TargetPath>
+      <DestinationSubDirectory>datadog\win-x86\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\win-x86\Datadog.Trace.ClrProfiler.Native.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\win-x86\ddwaf.dll" Condition="Exists('$(NuGetPackageRoot)datadog.monitoring.distribution\2.2.0-beta01\contentFiles\any\any\datadog\win-x86\ddwaf.dll')">
+      <NuGetPackageId>Datadog.Monitoring.Distribution</NuGetPackageId>
+      <NuGetPackageVersion>2.2.0-beta01</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>datadog\win-x86\ddwaf.dll</TargetPath>
+      <DestinationSubDirectory>datadog\win-x86\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>datadog\win-x86\ddwaf.dll</Link>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net6.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\Consultor\.nuget\packages\awssdk.core\3.7.13</PkgAWSSDK_Core>
+    <PkgAWSSDK_CloudWatchLogs Condition=" '$(PkgAWSSDK_CloudWatchLogs)' == '' ">C:\Users\Consultor\.nuget\packages\awssdk.cloudwatchlogs\3.7.0.5</PkgAWSSDK_CloudWatchLogs>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\Consultor\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_AspNetCore_Razor_Design Condition=" '$(PkgMicrosoft_AspNetCore_Razor_Design)' == '' ">C:\Users\Consultor\.nuget\packages\microsoft.aspnetcore.razor.design\2.2.0</PkgMicrosoft_AspNetCore_Razor_Design>
+    <PkgAWSSDK_SQS Condition=" '$(PkgAWSSDK_SQS)' == '' ">C:\Users\Consultor\.nuget\packages\awssdk.sqs\3.3.103.19</PkgAWSSDK_SQS>
+    <PkgAWSSDK_SimpleNotificationService Condition=" '$(PkgAWSSDK_SimpleNotificationService)' == '' ">C:\Users\Consultor\.nuget\packages\awssdk.simplenotificationservice\3.3.102.9</PkgAWSSDK_SimpleNotificationService>
+    <PkgAWSSDK_SecretsManager Condition=" '$(PkgAWSSDK_SecretsManager)' == '' ">C:\Users\Consultor\.nuget\packages\awssdk.secretsmanager\3.3.103.9</PkgAWSSDK_SecretsManager>
+    <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">C:\Users\Consultor\.nuget\packages\awssdk.s3\3.3.107.2</PkgAWSSDK_S3>
+    <PkgAWSSDK_KeyManagementService Condition=" '$(PkgAWSSDK_KeyManagementService)' == '' ">C:\Users\Consultor\.nuget\packages\awssdk.keymanagementservice\3.7.4.20</PkgAWSSDK_KeyManagementService>
+    <PkgAWSSDK_DynamoDBv2 Condition=" '$(PkgAWSSDK_DynamoDBv2)' == '' ">C:\Users\Consultor\.nuget\packages\awssdk.dynamodbv2\3.3.106.40</PkgAWSSDK_DynamoDBv2>
+  </PropertyGroup>
+</Project>
